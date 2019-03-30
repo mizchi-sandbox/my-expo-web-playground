@@ -1,7 +1,7 @@
 const merge = require("webpack-merge");
 const expoConfig = require("@expo/webpack-config");
 
-module.exports = function(env, argv) {
+module.exports = (env, argv) => {
   return merge(expoConfig(env, argv), {
     /* your extended config */
     resolve: {

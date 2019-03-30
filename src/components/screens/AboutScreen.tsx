@@ -9,8 +9,6 @@ export function AboutScreen(props: { navigation: any }) {
         title="Back"
         onPress={() => {
           props.navigation.pop();
-          // debugger;
-          // props.navigation.back();
         }}
       />
     </View>
